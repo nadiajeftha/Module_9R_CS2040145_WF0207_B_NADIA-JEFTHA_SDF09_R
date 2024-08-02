@@ -5,15 +5,19 @@ body {
     font-weight: bold;
     color: white;
     text-align:center;
+    width:100%;
     transition: background 0.5s ease-in-out;
+    
 }
 h1 {
+    width:100%;
     color: goldenrod;
-    animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
 }
 #message-el {
+    width:100%;
     font-style: italic;
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 2.5s ease-in-out;
 }
 
 button {
