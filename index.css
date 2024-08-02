@@ -5,12 +5,15 @@ body {
     font-weight: bold;
     color: white;
     text-align:center;
+    transition: background 0.5s ease-in-out;
 }
 h1 {
     color: goldenrod;
+    animation: fadeIn 1s ease-in-out;
 }
 #message-el {
     font-style: italic;
+    animation: fadeIn 2s ease-in-out;
 }
 
 button {
@@ -24,4 +27,27 @@ button {
     border-radius: 2px;
     margin-bottom: 2px;
     margin-top: 2px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+   
+}
+button:hover {
+   background-color : #7d5c0b;
+   color: #11a956;
+   font-weight: bold;
+   border-radius: 10px;
+   /*transition : all 0.3s ease-in-out;*/
+}
+
+input {
+    width: 100px;
+    padding:5 px;
+    margin: 10px 0;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: ;1}
 }
